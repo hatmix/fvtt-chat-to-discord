@@ -1,11 +1,11 @@
 {
-	"name": "moduletemplate",
-	"title": "Module Template",
-	"description": "FVTT module template",
-	"version": "0.0.0",
+	"name": "chat-to-discord",
+	"title": "Chat to Discord",
+	"description": "Send Foundry chat to Discord via webhook",
+	"version": "0.0.1",
 	"minimumCoreVersion" : "0.6.0",
-	"compatibleCoreVersion": "0.6.0",
-	"author": "Shoyu Vanilla",
+	"compatibleCoreVersion": "0.6.3",
+	"author": "hatmix",
 
 	"system": "",
 	"socket": true,
@@ -15,12 +15,9 @@
 	"bugs": "",
 	"changelog": "",
 
-	"esmodules": [],
-	"styles": [],
-	"packs": [],
-	"languages": [],
+	"scripts": ["chat-to-discord.js"],
 
-	"url": "https://github.com/ShoyuVanilla/FoundryVTT-module-template",
-	"manifest": "https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-module-template/master/module/module.json",
-	"download": "https://github.com/ShoyuVanilla/FoundryVTT-module-template/releases/download/v0.0.0/release.zip"
+	"url": "https://github.com/hatmix/fvtt-chat-to-discord",
+	"manifest": "https://raw.githubusercontent.com/hatmix/fvtt-chat-to-discord/master/module/module.json",
+	"download": "https://github.com/hatmix/fvtt-chat-to-discord/releases/download/v0.0.1/release.zip"
 }
